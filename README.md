@@ -116,7 +116,7 @@ The first row indicates the species, and the second row the area.
 
 ## Scripts for post-processing some output files.
 ### Script analize_K.R
-Takes the files test_numInd_perArea_perSpecies_2, output_newickTreeAll, and landscapes_per_area_2.csv as input, and outputs the files res_analyze_K and res_species.
+Takes the files test_numInd_perArea_perSpecies_2, output_newickTreeAll, and landscapes_per_area_2.csv as input, and outputs the files res_species and res_analyze_K.
 
 #### res_species_10101.csv
 This files contains the species richness per area.
@@ -129,6 +129,6 @@ after 7500 generations (next 9 values).
 #### res_analyze_K_10101.csv
 Contains the total number of individuals per area (one area per column) recorded at every generation.
 
-## Script analize_full.R
+## Script analize_full_output.R
 #### res_analyze_full_10101.csv 
 
