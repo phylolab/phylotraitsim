@@ -1,8 +1,22 @@
-# phylotraitsim
-## Usage
-(Assuming the seed is 10101 and the evolutionary rate is 0.01)
+# phylotraitsim: Simulations of intra- and inter-specific trait evolution
+This is code to simulate phenotypic data.
 
-Rscript logistic.R 10101 0.01
+### Requirements 
+The simulator is written in R requires the libraries `ape`, `geiger`, and `optparse`.
+The code was tested on different MacOS and Linux distributions using R 4.x.
+
+
+### Usage
+
+1) To display the full options type in a Terminal window:
+
+`Rscript simulator0.2.R --help`
+
+2) To run a simulation of 25000 generations, speciation rate (lambda) 0.0005,
+a migration matrix given in the file migMat_ex_2.csv,
+assuming the seed is 10101 and the evolutionary rate is 0.01 we run the following:
+
+Rscript logistic.R 10101 0.01 (This would generate the optima file for the next step), and
 
 Rscript simulator0.2.R -t 25000 --optima_file optima_trajectories_movingMidpoint_10101.csv --lambda 0.0005 --migration_file migMat_ex_2.csv --rseed 10101
 
