@@ -129,10 +129,10 @@ after 7500 generations (next 9 values).
 #### res_analyze_K_10101.csv
 Contains the total number of individuals per area (one area per column) recorded at every generation.
 
-## Script analize_full_output.R
+### Script analize_full_output.R
 Takes the files test_numInd_perArea_perSpecies_2, output_newickTreeAll, and landscapes_per_area_2.csv as input, and outputs the file res_analyze_full.
 
-### res_analyze_full_10101.csv
+#### res_analyze_full_10101.csv
 This files contains the total number of speciations per area (first 9 values, assuming a total of 9 areas),
-Then the number of extinctions per area (next 9 values),
+then the number of extinctions per area (next 9 values),
 and the total time spent (species presence) in each area (final 9 values).
