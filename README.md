@@ -108,7 +108,35 @@ Number of species present at every generation.
 Species index of every individual recorded every 1000 generations.
 
 #### output_species_10101.log
-Summary table for each species (rows) and different statistics (columns) including: generalist type, carrying capacity (K), various rates, presence in areas, lifespan, etc.
+Summary table for each species (rows) and different statistics (columns) including:
+
+Species: Species ID
+
+GeneralistType: Generalist type (1: specialist, 2: intermediate, 3: generalist). For phenotypic ranges of each type see output_generalistType.
+
+K: Maximum carrying capacity. It is set by default to 4000, unless the population size of a new species is larger than that (in which case K will be assigned to the size of the new species).
+
+Sigma2_s: Intra-specific sd^2 optimum.
+
+g: Growth rate.
+
+Sigma2_G: Parent-offspring variance.
+
+P_migration: Species specific probability of migration, independent of the migration matrix (function get_P_migration_species_specific).
+
+phenRangeDiff: Species specific phenotypic range, assigned at random between 0 and 5 (currently not used).
+
+N_0: Initial population size.
+
+N_mean: Mean population size across all generations.
+
+lifespan: Life span in generations.
+
+areas: Areas where the species is present.
+
+area_of_origin: Area where the species originated.
+
+area_of_extinction: Area where the species went extinct.
 
 #### output_tableLocalExtinctionsPerArea_10101.txt
 Table with the number of local extinctions per area (one line per area), plus the total presence per area 
