@@ -40,10 +40,11 @@ Thus, this file also shows the frequency at which a given species divided in two
 Area index of each individual recorded every 1000 generations.
 
 #### output_lifespans_a_4_f_1_10101.csv
-Table with one row per species, and three columns. 
-Column 1: Generation at which a given species originated,
-Column 2: Generation at which that same species went extinct, and
-Colunn 3: The lifespan in generations.
+Table with one row per species, and four columns. 
+Column 1: Species ID.
+Column 2: Generation at which a given species originated,
+Column 3: Generation at which that same species went extinct, and
+Colunn 4: The lifespan in generations.
 
 #### output_means_a_4_f_1_10101.csv
 Table with mean trait values per species at certain generations.
