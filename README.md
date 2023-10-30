@@ -1,5 +1,6 @@
 # phylotraitsim: Simulations of intra- and inter-specific trait evolution
-This is code to simulate phenotypic data.
+This is code to simulate individual-based phenotypic data. For details please refer to
+Duchen, Pablo, et al. "On the effect of asymmetrical trait inheritance on models of trait evolution." Systematic Biology 70.2 (2021): 376-388.
 
 ### Requirements 
 The simulator is written in R requires the libraries `ape`, `geiger`, and `optparse`.
